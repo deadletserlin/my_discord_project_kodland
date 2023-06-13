@@ -32,4 +32,4 @@ async def on_message_delete(self, message):
         msg = f'{message.author} has deleted the message: {message.content}'
         await message.channel.send(msg)
 
-client.run("MTExMDU1Nzk4MDM4NDA0NzE5NA.GFcYB9.9Tf-FPaP9D9JGh9ypqCnlymZP1V-ydlkTzPmNs")
+client.run("token")
